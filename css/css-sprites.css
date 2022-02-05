@@ -1,0 +1,2228 @@
+﻿.flogo {
+    display: inline-block;
+    padding: 15px;
+    margin: 6px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    opacity: .6;
+}
+
+.bg-Princess_Bride_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -762px -10px;
+}
+
+.bg-Poem_Solutions_LLP {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -762px -195px;
+}
+
+.bg-My_Auctions_Co_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -762px -380px;
+}
+
+.bg-Labios_Trading_Inc_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -762px -565px;
+}
+
+.bg-La_Pierre_Precieuse_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -762px;
+}
+
+.bg-HVK_International {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -762px;
+}
+
+.bg-Gutfreund_diamonds_BVBA {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -762px;
+}
+
+.bg-Eastern_Jewellery_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -762px;
+}
+
+.bg-DALUMI_BOTSWANA_PTY_LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -762px;
+}
+
+.bg-Cullen_Moissanite {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -947px -10px;
+}
+
+.bg-Chaumet_International_Sa {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -947px -195px;
+}
+
+.bg-3DIANE_D_INTERNATIONAL {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -947px -380px;
+}
+
+.bg-American_Gem_Society_Laboratories_LLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -947px -565px;
+}
+
+.bg-Huzhou_Sino_C_Semiconductor_Technology_Co__Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -947px -750px;
+}
+
+.bg-Arnoldi_International_EK {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -947px;
+}
+
+.bg-BELGIUM_DIA {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -947px;
+}
+
+.bg-Empire_Treasures_Pte_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -947px;
+}
+
+.bg-KBS_Diamonds_HK_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -947px;
+}
+
+.bg-Luminous_Fzco {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -947px;
+}
+
+.bg-Michael_Trio_Pte_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -947px;
+}
+
+.bg-Parshwa_Diam {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1132px -10px;
+}
+
+.bg-Prestorise_Intertrade_Co_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1132px -195px;
+}
+
+.bg-Sahl_Holdings_Pvt_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1132px -380px;
+}
+
+.bg-savani_brothers {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1132px -565px;
+}
+
+.bg-SHENZHEN_DONGHUI_JEWELLERY_CO_LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1132px -750px;
+}
+
+.bg-sun_diam {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1132px -935px;
+}
+
+.bg-Swarovski_Gemstones_Thailand_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -1132px;
+}
+
+.bg-Valuence_International_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -1132px;
+}
+
+.bg-Yaelstar_DMCC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -1132px;
+}
+
+.bg-YONDOR_DIAMONDS_LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -1132px;
+}
+
+.bg-Mohit_Diamonds_Private_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -1132px;
+}
+
+.bg-Ratnakala {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -1132px;
+}
+
+.bg-yellow_walf_png80 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -1132px;
+}
+
+.bg-westurn_stone_png80 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -10px;
+}
+
+.bg-weiss {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -195px;
+}
+
+.bg-vnr_enterprices_png78 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -380px;
+}
+
+.bg-vertical_png78 {
+    width: 100px;
+    height: 100px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -1490px;
+}
+
+.bg-vaibhav_gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -565px;
+}
+
+.bg-unique_png77 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -750px;
+}
+
+.bg-super_gems_png75 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -935px;
+}
+
+.bg-sunrise_diamond_png73 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1317px -1120px;
+}
+
+.bg-subhlaxmi_diamond_png73 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -1317px;
+}
+
+.bg-srk_png72 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -1317px;
+}
+
+.bg-shree_ram_krishna_exports_pvt_ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -1317px;
+}
+
+.bg-shree_jogi_diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -1317px;
+}
+
+.bg-sheetal_png66 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -1317px;
+}
+
+.bg-shiwan_jewels_png67 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -1317px;
+}
+
+.bg-shairu_png65 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -1317px;
+}
+
+.bg-sd_diamond_png63 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -1317px;
+}
+
+.bg-sbgems_png84 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -10px;
+}
+
+.bg-sanghvi_sans_png64 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -195px;
+}
+
+.bg-sagar_enterprise_png61 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -380px;
+}
+
+.bg-rosyblue_png59 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -565px;
+}
+
+.bg-rose360_co_il {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -750px;
+}
+
+.bg-rainbow_png58 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -935px;
+}
+
+.bg-r_rajesh {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -1120px;
+}
+
+.bg-poodar {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1502px -1305px;
+}
+
+.bg-paladiya_bro_png55 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -1502px;
+}
+
+.bg-narola_group {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -1502px;
+}
+
+.bg-monarch_gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -1502px;
+}
+
+.bg-mjgross_png53 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -1502px;
+}
+
+.bg-mid_png53 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -1502px;
+}
+
+.bg-mandb_png51 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -1502px;
+}
+
+.bg-mahima {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -1502px;
+}
+
+.bg-mahendra_bros_png51 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -1502px;
+}
+
+.bg-maganlal {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -1502px;
+}
+
+.bg-mKhushi {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -10px;
+}
+
+.bg-m_suresh_png49 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -195px;
+}
+
+.bg-love_jewelrs {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -380px;
+}
+
+.bg-laxmi_diamond_png47 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -565px;
+}
+
+.bg-lakhi_group_png45 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -750px;
+}
+
+.bg-kunming_png45 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -935px;
+}
+
+.bg-kumar_Jewels {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -1120px;
+}
+
+.bg-kiran_png43 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -1305px;
+}
+
+.bg-kgk_png44 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1687px -1490px;
+}
+
+.bg-k_kirdharlal_png41 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -1687px;
+}
+
+.bg-jewelex_png40 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -1687px;
+}
+
+.bg-jbbros_png38 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -1687px;
+}
+
+.bg-jasani_png37 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -1687px;
+}
+
+.bg-inter_jewels_png35 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -1687px;
+}
+
+.bg-index_png35 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -1687px;
+}
+
+.bg-hare_krishna_png33 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -1687px;
+}
+
+.bg-hardik_gems_png33 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -1687px;
+}
+
+.bg-good_old_png32 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -1687px;
+}
+
+.bg-godhani_gems_png31 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -1687px;
+}
+
+.bg-glow_star_png30 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -10px;
+}
+
+.bg-gcal_png82 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -195px;
+}
+
+.bg-forever_png28 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -380px;
+}
+
+.bg-fine_star_png26 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -565px;
+}
+
+.bg-excellent_png25 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -750px;
+}
+
+.bg-excel_png24 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -935px;
+}
+
+.bg-dnavinchandra_png23 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -1120px;
+}
+
+.bg-diamond_trading_png18 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -1305px;
+}
+
+.bg-diarough_png21 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -1490px;
+}
+
+.bg-difree_png22 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1872px -1675px;
+}
+
+.bg-cs_png17 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -1872px;
+}
+
+.bg-dalumi_png19 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -1872px;
+}
+
+.bg-color_diam {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -1872px;
+}
+
+.bg-brian_gavin_png14 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -1872px;
+}
+
+.bg-blue_star_png13 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -1872px;
+}
+
+.bg-bhavini_png12 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -1872px;
+}
+
+.bg-ayurish_png11 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -1872px;
+}
+
+.bg-as_exports_png10 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -1872px;
+}
+
+.bg-ap_png83 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -1872px;
+}
+
+.bg-ap {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -1872px;
+}
+
+.bg-ankit_png9 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -1872px;
+}
+
+.bg-ankit {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -10px;
+}
+
+.bg-anjo_png8 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -195px;
+}
+
+.bg-anjo {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -380px;
+}
+
+.bg-amc_png7 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -565px;
+}
+
+.bg-amare_png5 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -750px;
+}
+
+.bg-almaasa_png5 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -935px;
+}
+
+.bg-akarsh_png3 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -1120px;
+}
+
+.bg-agi_png3 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -1305px;
+}
+
+.bg-ae_png1 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -1490px;
+}
+
+.bg-adtc_png1 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -1675px;
+}
+
+.bg-Zest_Corporation {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2057px -1860px;
+}
+
+.bg-Yoshfe_Diamonds_Internationalltd_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -10px;
+}
+
+.bg-Xian_Dragon_Diamonds_Polishing_Co_Ltd_png177 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -2057px;
+}
+
+.bg-West_Michigan_Jewelry_Exchange1 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -2057px;
+}
+
+.bg-Washington_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -2057px;
+}
+
+.bg-Wanbao_ShangLiane_Commerce_Co_Ltd_copy_png189 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -2057px;
+}
+
+.bg-WP_Diamonds_Com_LLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -2057px;
+}
+
+.bg-Vru_Star_HK_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -2057px;
+}
+
+.bg-Vru_Star_HK_Ltd_png_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -2057px;
+}
+
+.bg-Vivid_Diamonds_Inc_gray_scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -2057px;
+}
+
+.bg-Vishal_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -2057px;
+}
+
+.bg-Vinay_Diamonds_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -198px -10px;
+}
+
+.bg-Venus_Jewel {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -2057px;
+}
+
+.bg-Vega_Jeweldiam_Pvt_Ltd__png175 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -198px;
+}
+
+.bg-Vandan_Enterprise {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -2057px;
+}
+
+.bg-Vaishali_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -2057px;
+}
+
+.bg-Unique_Blue_Crystal_LLC_png175 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -198px -198px;
+}
+
+.bg-Ultimate_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -10px;
+}
+
+.bg-UNI_Powering_Diamond_trading {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -195px;
+}
+
+.bg-UNIGLO_BV {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -380px;
+}
+
+.bg-UDHRASH_EXPORT {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -565px;
+}
+
+.bg-Treasures {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -750px;
+}
+
+.bg-TejDiam_png186 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -935px;
+}
+
+.bg-Taka_Jewellery_png75 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -1120px;
+}
+
+.bg-Tachee_Diamonds_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -1305px;
+}
+
+.bg-SunShine {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -1490px;
+}
+
+.bg-Sugam_Gems_BVBA_Gray_scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -1675px;
+}
+
+.bg-Suchi_Exports {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -1860px;
+}
+
+.bg-StoneOakJewelers_png71 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2242px -2045px;
+}
+
+.bg-Star_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -2242px;
+}
+
+.bg-StarRays {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -2242px;
+}
+
+.bg-Spicer {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -2242px;
+}
+
+.bg-Sparkle {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -2242px;
+}
+
+.bg-Singh_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -2242px;
+}
+
+.bg-Sim_Gems_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -2242px;
+}
+
+.bg-Sidney_Imports {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -2242px;
+}
+
+.bg-Shri_Krishna_Export_png69 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -2242px;
+}
+
+.bg-Shree_International__HK__Ltd_png68 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -2242px;
+}
+
+.bg-Shree_Diamond_Mfg {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -2242px;
+}
+
+.bg-Shimansky_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -2242px;
+}
+
+.bg-SheelGems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -2242px;
+}
+
+.bg-Shashvat_Diamonds_Inc_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -386px -10px;
+}
+
+.bg-Shanghavi {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -2242px;
+}
+
+.bg-Shanghai_YBL_Diamond_Co_ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -10px;
+}
+
+.bg-Shanghai_Asteria_Trading_Ltd_copy_png187 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -195px;
+}
+
+.bg-Shane_Corcorn {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -380px;
+}
+
+.bg-Saraff_Overseas_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -565px;
+}
+
+.bg-Sani_Jewels_4Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -750px;
+}
+
+.bg-Sanghavi_Jewel_Pvt_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -935px;
+}
+
+.bg-S_VINODKUMAR_DIAMONDS_PVT_LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -1120px;
+}
+
+.bg-S_S_Brothers {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -1305px;
+}
+
+.bg-STARLIGHT_DIAMONDS {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -1490px;
+}
+
+.bg-SNJ_Diam_png70 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -1675px;
+}
+
+.bg-SHYAM_CORPORATION {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -1860px;
+}
+
+.bg-S__Jogani_Exports_Pvt__Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -2045px;
+}
+
+.bg-S_E_Barbi_Diamonds__LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2427px -2230px;
+}
+
+.bg-Rijiya_Brothers_png177 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -386px -198px;
+}
+
+.bg-Rijiya_Brothers_png100 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -2427px;
+}
+
+.bg-Rick_Shatz_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -2427px;
+}
+
+.bg-Ressigeac {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -2427px;
+}
+
+.bg-Ressigeac_Gems_ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -2427px;
+}
+
+.bg-Remy_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -2427px;
+}
+
+.bg-Regal {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -2427px;
+}
+
+.bg-Reeds_J {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -2427px;
+}
+
+.bg-Rays_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -2427px;
+}
+
+.bg-Raselli_Franco_Spa_png187 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -2427px;
+}
+
+.bg-Rapaport_png59 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -2427px;
+}
+
+.bg-Ralph_Mueller_and_associates {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -2427px;
+}
+
+.bg-Radhika_Diamonds_MFG_LLP_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -386px;
+}
+
+.bg-Radhe_Shyam_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -2427px;
+}
+
+.bg-RMC_Diamonds_png178 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -198px -386px;
+}
+
+.bg-QG_India_Labgrown_LLP {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -2427px;
+}
+
+.bg-Prismdia_Limited_gray_scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2415px -2427px;
+}
+
+.bg-Prijems_png184 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -10px;
+}
+
+.bg-Premier_Gem {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -195px;
+}
+
+.bg-Pramukh_Export {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -380px;
+}
+
+.bg-Popatlal_Nathalala_Shah {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -565px;
+}
+
+.bg-Parishi {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -750px;
+}
+
+.bg-Pansuriya_Impex_png55 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -935px;
+}
+
+.bg-Panchratna_Jewellers_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -1120px;
+}
+
+.bg-PMI_Diamond_Logo {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -1305px;
+}
+
+.bg-Oper_Mizrahi {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -1490px;
+}
+
+.bg-Nsouli {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -1675px;
+}
+
+.bg-Ninas_jewellery {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -1860px;
+}
+
+.bg-New_Diamond_ERA {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -2045px;
+}
+
+.bg-NINACCI_INC_png183 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -2230px;
+}
+
+.bg-NGTC_GEMMOLOGICAL_GRADING_INDIA_PRIVATE_LIMITED_Gray_Scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2612px -2415px;
+}
+
+.bg-NER {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -2612px;
+}
+
+.bg-Motigaanz {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -2612px;
+}
+
+.bg-Mishal_Diamond_logo_png182 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -2612px;
+}
+
+.bg-Mihir_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -2612px;
+}
+
+.bg-Messigem_ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -2612px;
+}
+
+.bg-Mayan_Exports {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -2612px;
+}
+
+.bg-Mavilo {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -2612px;
+}
+
+.bg-Malani_Jewelers_png181 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -2612px;
+}
+
+.bg-Macorina_png180 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -2612px;
+}
+
+.bg-M_S_RAJ_KUMAR_JAIN {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -2612px;
+}
+
+.bg-MY_LLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -2612px;
+}
+
+.bg-MILLENNIUM_DIAMONDS_jpg163 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -386px -386px;
+}
+
+.bg-MEGHARSH_GEMS {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -2612px;
+}
+
+.bg-MAHARONOFF_CO_INC_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -2612px;
+}
+
+.bg-Lukhi_Diamond_png49 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2415px -2612px;
+}
+
+.bg-Love_Promise_png48 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2600px -2612px;
+}
+
+.bg-LondonGold {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -10px;
+}
+
+.bg-Levy_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -195px;
+}
+
+.bg-La_KrishnaGemsPvtLtd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -380px;
+}
+
+.bg-LT_Denny_Jewelers {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -565px;
+}
+
+.bg-Kwiat_png185 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -750px;
+}
+
+.bg-Krochmal__Lieber_bvba {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -935px;
+}
+
+.bg-Krisha_Diam_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -1120px;
+}
+
+.bg-Kismet_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -1305px;
+}
+
+.bg-Ketan_Brothers_Diamondz_Exports_png42 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -1490px;
+}
+
+.bg-Kelsol_Diamond_Co_Inc__png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -574px -10px;
+}
+
+.bg-Kelsol_Diamond_Co_Inc_png98 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -1675px;
+}
+
+.bg-Kapu_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -1860px;
+}
+
+.bg-Kanner_Diamonds_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -2045px;
+}
+
+.bg-Kalpataru_2 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -2230px;
+}
+
+.bg-KPShanghavi {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -2415px;
+}
+
+.bg-KGK_Logo {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2797px -2600px;
+}
+
+.bg-KB_GEMS {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -2797px;
+}
+
+.bg-KARP_Impex_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -574px -198px;
+}
+
+.bg-K_J_COMPANY {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -2797px;
+}
+
+.bg-Josyfon {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -2797px;
+}
+
+.bg-JeanDoussetDiamondsLogo {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -2797px;
+}
+
+.bg-Janam_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -2797px;
+}
+
+.bg-JODHANI_BROTHERS {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -2797px;
+}
+
+.bg-JEWEL_STAR {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -2797px;
+}
+
+.bg-JAS_DIAMONDS_INC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -2797px;
+}
+
+.bg-International_Precious_Metals_and_Diamond_Exchange_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -574px -386px;
+}
+
+.bg-Independent_Gemmological_Laboratory_W {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -2797px;
+}
+
+.bg-IcingOnThe_Ring_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -2797px;
+}
+
+.bg-ISROUGH_TECHNOLOGIES_LTD_png176 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -2797px;
+}
+
+.bg-IGC_Group_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -574px;
+}
+
+.bg-IDJ_Corporation {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -2797px;
+}
+
+.bg-IDI_Institute {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -2797px;
+}
+
+.bg-Horizon {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2415px -2797px;
+}
+
+.bg-HoneyExport {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2600px -2797px;
+}
+
+.bg-HiraNajar {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2785px -2797px;
+}
+
+.bg-HiNi_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -10px;
+}
+
+.bg-HST_DIAMONDS_CO_LTD_gray_scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -195px;
+}
+
+.bg-HARI_KRISHNA_EXPORTS_PvtLtd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -380px;
+}
+
+.bg-Guangzhou_Chieking_Information_Technology_CoLtd_png176 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -565px;
+}
+
+.bg-Green_Lake_Jewelry_logo_png179 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -750px;
+}
+
+.bg-Grant_Laughter_Jewelry_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -935px;
+}
+
+.bg-GemologicalScienceInternationalHKLTD_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -1120px;
+}
+
+.bg-Gemius_ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -1305px;
+}
+
+.bg-Gamelody {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -1490px;
+}
+
+.bg-GOLD_STEIN_DIAMONDS_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -1675px;
+}
+
+.bg-GNDiamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -1860px;
+}
+
+.bg-Four_Mine_Inc_gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -2045px;
+}
+
+.bg-FlawlessHKCompany_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -2230px;
+}
+
+.bg-Five_Star_png27 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -2415px;
+}
+
+.bg-FirecutLLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -2600px;
+}
+
+.bg-FireStar {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2982px -2785px;
+}
+
+.bg-Eshed_Diam_Ltd_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -2982px;
+}
+
+.bg-Eco_Diamonds_FZE_png96 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -2982px;
+}
+
+.bg-EV_INTERNATIONAL_PTY_LTD_gray_scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -2982px;
+}
+
+.bg-EURO_MOUNTS_FINDINGS_LLP {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -2982px;
+}
+
+.bg-ESPEKA_BVBA_png176 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -2982px;
+}
+
+.bg-EMD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -2982px;
+}
+
+.bg-Dm_Gems_png95 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -2982px;
+}
+
+.bg-Dm_Gems_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -198px -574px;
+}
+
+.bg-Diya_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -2982px;
+}
+
+.bg-Dimend_SCAASI {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -2982px;
+}
+
+.bg-Diamonds_Select_Pty_Ltd_png192 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -2982px;
+}
+
+.bg-Diamonds_Forever {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -2982px;
+}
+
+.bg-Diagem_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -2982px;
+}
+
+.bg-Diacrown {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -2982px;
+}
+
+.bg-DiacraftExports_gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2415px -2982px;
+}
+
+.bg-Diacore_png93 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2600px -2982px;
+}
+
+.bg-DiaSqua {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2785px -2982px;
+}
+
+.bg-Dharnanandan {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2970px -2982px;
+}
+
+.bg-De_Beers_Jewellers {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -10px;
+}
+
+.bg-Das_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -195px;
+}
+
+.bg-D_Ratna_Exports_png175 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -380px;
+}
+
+.bg-D_F_L_Technologies_Ltd_png178 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -565px;
+}
+
+.bg-DIANE_D_INTERNATIONAL {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -750px;
+}
+
+.bg-DDSDiamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -935px;
+}
+
+.bg-DAZZLE_FZCO {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -1120px;
+}
+
+.bg-Created_Brilliance {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -1305px;
+}
+
+.bg-Corona_Jewellery_png16 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -1490px;
+}
+
+.bg-Constell {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -1675px;
+}
+
+.bg-Color_Kingdom_Co_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -1860px;
+}
+
+.bg-Clark_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -2045px;
+}
+
+.bg-Carbon_Creation_Exports_Pvt__Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -2230px;
+}
+
+.bg-Carat_Smart_USA_LLC_png191 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -2415px;
+}
+
+.bg-CVD_DIAMOND_INC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -2600px;
+}
+
+.bg-COMBINE_INTERNATIONAL_INC_gray_scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -2785px;
+}
+
+.bg-CAVALIER_GASTOWN_gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3167px -2970px;
+}
+
+.bg-Brilliant_Earth_png15 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -3167px;
+}
+
+.bg-Brighton_Diamond_Company_Limited_png176 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -386px -574px;
+}
+
+.bg-Bhavna_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -3167px;
+}
+
+.bg-Bhagwati_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -3167px;
+}
+
+.bg-Benadato_Trading_Co {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -3167px;
+}
+
+.bg-Bees {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -3167px;
+}
+
+.bg-Baileys_Fine_Jewelry {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -3167px;
+}
+
+.bg-BASSANOGIOIELLI_Gray {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -3167px;
+}
+
+.bg-Aurostar_Diamonds_Botswana__PTY__Ltd_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -3167px;
+}
+
+.bg-ArgylePinkDiamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -3167px;
+}
+
+.bg-Apex_Jewellers_LTD_png153 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -3167px;
+}
+
+.bg-Angara {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -3167px;
+}
+
+.bg-American_ideal_diamond_co_inc_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -3167px;
+}
+
+.bg-American_Jewelry_Co {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -3167px;
+}
+
+.bg-Alok_Impex_Pvt_Ltd_png176 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2415px -3167px;
+}
+
+.bg-AksharImpex {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2600px -3167px;
+}
+
+.bg-Ajami_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2785px -3167px;
+}
+
+.bg-A_A_Rachminov_Diamonds_Ltd_Gray_Scale {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2970px -3167px;
+}
+
+.bg-ASI {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3155px -3167px;
+}
+
+.bg-ASHA_DIAMOND {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -10px;
+}
+
+.bg-ARTINIAN_NV {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -195px;
+}
+
+.bg-ARSLANIAN_GROUP_NV {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -380px;
+}
+
+.bg-A_Sachachter_png175 {
+    width: 168px;
+    height: 168px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -574px -574px;
+}
+
+.bg-A_SCHACHTER_LIMITED_png94_png155 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -565px;
+}
+
+.bg-77D_Logo_png153 {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -750px;
+}
+
+.bg-AJARI_GEMS_BVBA {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -935px;
+}
+
+.bg-Bhajan_Jewel {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -1120px;
+}
+
+.bg-Biharilal_Holaram {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -1305px;
+}
+
+.bg-Brilliant_Star_BV {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -1490px;
+}
+
+.bg-Created_Diamonds_Company_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -1675px;
+}
+
+.bg-DIAMOND_CELLAR_HOLDINGS_LLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -1860px;
+}
+
+.bg-FEINER_GEMS {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -2045px;
+}
+
+.bg-FLAWLESS_COMPANY_LIMITED {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -2230px;
+}
+
+.bg-GLAJZ_THG_PTE_LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -2415px;
+}
+
+.bg-IDC_MILENIUM_LTD {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -2600px;
+}
+
+.bg-J2_MATERIALS_LLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -2785px;
+}
+
+.bg-KA_SHING_JEWELLERY_CO {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -2970px;
+}
+
+.bg-M_K_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3352px -3155px;
+}
+
+.bg-M_Sashi_Badalia_and_sons_Private_Limited {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -10px -3352px;
+}
+
+.bg-Malakan_Diamond_Co {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -195px -3352px;
+}
+
+.bg-MMDIA_Pty_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -380px -3352px;
+}
+
+.bg-NIDHI_DIAMONDS {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -565px -3352px;
+}
+
+.bg-Orange_River_Pty_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -750px -3352px;
+}
+
+.bg-Radiant_Star_Jewellery_LLC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -935px -3352px;
+}
+
+.bg-Rijiya_Gems {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1120px -3352px;
+}
+
+.bg-Ryan_Rodney_Diamonds_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1305px -3352px;
+}
+
+.bg-SHREE_RAMDOOT_GEMS_LLP {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1490px -3352px;
+}
+
+.bg-Star_Gems_Jewellery_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1675px -3352px;
+}
+
+.bg-Surat_Rough_Diamond_Sourcing_India_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -1860px -3352px;
+}
+
+.bg-UME_Co_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2045px -3352px;
+}
+
+.bg-UNIQUE_DESIGN_INC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2230px -3352px;
+}
+
+.bg-Veera_Dimon_BVBA {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2415px -3352px;
+}
+
+.bg-Wedding_Day_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2600px -3352px;
+}
+
+.bg-3DIANE_D_INTERNATIONAL {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2785px -3352px;
+}
+
+.bg-ABSOLUTE_BRILLIANCE_INC {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -2970px -3352px;
+}
+
+.bg-Carbon_Creation_Exports_Pvt__Ltd_ {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3155px -3352px;
+}
+
+.bg-HARI_KRISHNA_EXPORTS_PvtLtd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3340px -3352px;
+}
+
+.bg-Finestar_Diamonds {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -10px;
+}
+
+.bg-RR_Logo {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -195px;
+}
+
+.bg-Vraj_Diamond {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -380px;
+}
+
+.bg-Valuenc_Japan_Inc {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -565px;
+}
+
+.bg-Tejax_Support_Service_Pvt_Ltd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -750px;
+}
+
+.bg-Sunrays {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -935px;
+}
+
+.bg-Shangha_Trinity_Diamond_CoLtd {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -1120px;
+}
+
+.bg-R_Rajesh_Exports {
+    width: 165px;
+    height: 165px;
+    background: url('../../v360data.v360.in/webdata/css_sprites.png') -3537px -1305px;
+}

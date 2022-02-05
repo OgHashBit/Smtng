@@ -1,0 +1,1797 @@
+.viwermore a, nav {
+    margin-top: 20px
+}
+
+.diamondstyle img, .header, .maindiamond img {
+    width: 100%
+}
+
+.slogen, .viwermore {
+    text-align: center
+}
+
+.button a, .contacttitile h1, .option a {
+    text-transform: uppercase
+}
+
+.button a, .menu li a:focus, .news a, .news a:hover, .viwermore a:hover, a:hover {
+    text-decoration: none
+}
+
+.cform input[type=text]:focus, .clientlogin input:focus, .footer ul input:focus, .infomessage:focus, .message:focus, .partnerform input[type=text]:focus, select:focus {
+    outline: 0
+}
+
+#player, .chbox input, .header, .news a, .openinfo, .supports, .timeline span, .vimovideo {
+    position: relative
+}
+
+.about ul li, .faq ul li {
+    list-style-position: inside;
+    list-style-type: circle
+}
+
+.footer ul li, .partner ul li {
+    list-style: none
+}
+
+#Message, #Video, #player, .flogo, .smalldiamond {
+    overflow: hidden
+}
+
+#go-top, .btn_close, .disclaimer, .playvideo img, .quation {
+    cursor: pointer
+}
+
+.divJewelTitle, .fontbold li, .hrefFAQ, .multipleaddress span b, .slogen h1 span, .spnHead, .terms h4, .yournext h3, .yournext span {
+    font-weight: 700
+}
+
+html {
+    height: 100%
+}
+
+body {
+    font-family: AvenirNext
+}
+
+a {
+    transition: ease .5s;
+    -webkit-transition: ease .5s;
+    -o-transition: ease .5s;
+    -moz-transition: ease .5s
+}
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(fonts/AvenirNext.eot);
+    src: local('?'),url(fonts/AvenirNext.woff) format('woff'),url(fonts/AvenirNext.ttf) format('truetype'),url(fonts/AvenirNext.svg) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.diamondstyle span {
+    background-color: #242424;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    display: block
+}
+
+.copyright p, .go, .news a, .viwermore a {
+    display: inline-block
+}
+
+.viwermore a {
+    background-color: #c5691d;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 3px
+}
+
+    .viwermore a:hover {
+        background-color: #444
+    }
+
+.header {
+    z-index: 9999 !important;
+    background-color: #222
+}
+
+.dropdown ul li a {
+    color: #000
+}
+
+.round-tabs img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 10px
+}
+
+.maintab {
+    background-color: #E8E8E8;
+    padding-bottom: 30px
+}
+
+.slogen {
+    margin-bottom: 30px
+}
+
+.whiteText {
+    color: #fff
+}
+
+.slogen h1 {
+    color: #222;
+    line-height: 55px;
+    font-size: 40px;
+    margin-bottom: 0
+}
+
+.whiteText h1 {
+    color: #fff
+}
+
+.slogen p {
+    font-size: 20px
+}
+
+.slogen h1 span {
+    color: #C5691D
+}
+
+.footer {
+    background-color: #222;
+    padding: 40px 0
+}
+
+    .footer ul {
+        padding: 0
+    }
+
+        .footer ul input {
+            border: 0;
+            width: 80%;
+            margin: 4px 0;
+            height: 30px;
+            padding: 0 5px;
+            background-color: #ccc
+        }
+
+.go {
+    background-color: #000;
+    color: #fff;
+    padding: 7px 10px
+}
+
+.footer ul li:first-child {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.footer ul li a {
+    color: #adadad;
+    font-size: 14px
+}
+
+    .footer ul li a:hover {
+        color: #fff;
+        text-decoration: none
+    }
+
+.footer ul p {
+    color: #adadad;
+    text-align: left;
+    font-size: 14px
+}
+
+.footerbanner {
+    background-color: #E8E8E8
+}
+
+    .footerbanner img {
+        width: 100%
+    }
+
+.copyright p {
+    color: #777
+}
+
+.v360slider {
+    margin-top: 30px
+}
+
+.main .col-md-6, .main .container {
+    padding: 0
+}
+
+.news a {
+    background-color: #c5691d;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 5.5;
+    margin: 0 18px;
+    border-radius: 100%;
+    z-index: 9;
+    font-size: 17px;
+    box-shadow: 1px 1px 6px #4e2807
+}
+
+    .news a:hover {
+        background-color: #ccc;
+        color: #000
+    }
+
+.quation, .timeline span {
+    display: inline-block;
+    background-color: #c5691d
+}
+
+.timeline span {
+    height: 2px;
+    width: 425px;
+    top: 53px
+}
+
+.adjust1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: justify
+}
+
+.adjust2 {
+    margin: 0;
+    font-size: 16px
+}
+
+.text-info {
+    color: #C5691D
+}
+
+.carousel-indicators li {
+    border: 1px solid #ccc
+}
+
+.carousel-control {
+    color: #31708f;
+    width: 5%
+}
+
+    .carousel-control:focus, .carousel-control:hover {
+        color: #31708f
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image: none
+    }
+
+.media-object {
+    margin: 15% auto auto
+}
+
+.carousel-indicators {
+    bottom: -40px
+}
+
+.news {
+    margin-right: 10px;
+    padding: 10px 0;
+    text-align: center
+}
+
+    .news h3 {
+        margin-top: 0;
+        font-size: 25px;
+        margin-bottom: 30px;
+        text-align: left
+    }
+
+.timeline {
+    margin-top: 85px
+}
+
+.quation {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 1.8
+}
+
+.liner2, .productmachine img, .users img, .v360step {
+    width: 100%
+}
+
+.productmachine {
+    border: 1px solid #222;
+    margin: 15px 0
+}
+
+    .productmachine span {
+        display: block;
+        padding: 9px 10px;
+        color: #fff;
+        background-color: #222;
+        text-align: center
+    }
+
+.modal-content {
+    display: inline-block
+}
+
+.liner2 {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: solid 1px #FFF;
+    border-top: solid 1px #C3C3C3;
+    display: none
+}
+
+.v360step {
+    display: inline-block;
+    margin: 30px 0
+}
+
+.flow h2, .vimovideo h2 {
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    font-size: 20px
+}
+
+.button a, .contacttitile, .option {
+    text-align: center
+}
+
+.flow img {
+    width: 470px
+}
+
+.vimovideo img {
+    width: 100%;
+    border-radius: 3px
+}
+
+.newsevent {
+    padding-top: 27px;
+    background-color: #e8e8e8
+}
+
+.menu li a:focus {
+    color: #fff;
+    outline: 0
+}
+
+.contacttitile {
+    margin-bottom: 20px
+}
+
+    .contacttitile h1 {
+        font-size: 25px
+    }
+
+.cform input[type=text], .cform input[type=password], .cform select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    height: 37px
+}
+
+.button a, .disclaimer, .feacherlist, .multipleaddress {
+    display: inline-block;
+    width: 100%
+}
+
+    .address h3, .multipleaddress h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        border-bottom: solid 1px #ccc;
+        padding-bottom: 6px
+    }
+
+.multipleaddress {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+    .multipleaddress .col-md-4 {
+        padding: 0 10px 0 0
+    }
+
+    .multipleaddress span b {
+        color: #000;
+        font-size: 20px
+    }
+
+.feacherlist {
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px
+}
+
+.message {
+    width: 100%;
+    min-height: 130px;
+    padding: 5px
+}
+
+.button a {
+    background-color: #C5691D;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0
+}
+
+    .button a:hover {
+        background-color: #222
+    }
+
+.divdetaildesc {
+    margin-top: 10px;
+    padding-top: 7px;
+    border-top: solid 1px #ccc;
+    display: none
+}
+
+.disclaimer a, .option, .option a {
+    display: inline-block
+}
+
+.disclaimer span {
+    font-size: 20px
+}
+
+.disclaimer a {
+    color: #222;
+    background-color: #eee;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 12px
+}
+
+.mybutton, .mybutton:hover, .option a {
+    color: #fff;
+    text-decoration: none
+}
+
+.option {
+    width: 100%
+}
+
+    .option a {
+        background-color: #C5691D;
+        padding: 10px 40px;
+        margin: 0 10px
+    }
+
+        .option a:hover {
+            background-color: #222
+        }
+
+.partnerform {
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 30px
+}
+
+.partner p {
+    text-align: justify
+}
+
+.clientlogin h4, .login, .login a, .mybutton {
+    text-align: center
+}
+
+.partner ul {
+    padding: 0
+}
+
+.partnerform input[type=text] {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    height: 40px;
+    border: 1px solid #ddd
+}
+
+.partnerform span {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 3px
+}
+
+.cinformation input[type=text] {
+    width: 47%;
+    float: left;
+    margin: 7px 15px 7px 0
+}
+
+.infomessage {
+    width: 97%;
+    min-height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc
+}
+
+.mybutton {
+    display: block;
+    background-color: #C5691D;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 97%
+}
+
+    .mybutton:hover {
+        background-color: #222
+    }
+
+.clientlogin {
+    margin: 33px auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,.59)
+}
+
+    .clientlogin span {
+        display: block;
+        margin-top: 9px
+    }
+
+    .clientlogin input {
+        display: block;
+        width: 100%;
+        padding: 5px
+    }
+
+    .clientlogin a {
+        color: #000
+    }
+
+.login a {
+    display: inline-block;
+    background-color: #C5691D;
+    color: #fff;
+    margin-top: 20px;
+    padding: 9px 30px;
+    border-radius: 3px
+}
+
+    .login a:hover {
+        background-color: #000;
+        text-decoration: none
+    }
+
+.supports {
+    background: url(../images/support.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 50px 0 0
+}
+
+.desired {
+    width: 70%;
+    margin: 80px auto 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 30px
+}
+
+    .desired input {
+        margin: 0 !important
+    }
+
+    .desired span {
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 2px
+    }
+
+.mybuttons {
+    text-align: right
+}
+
+#go-top, .yournext {
+    text-align: center
+}
+
+.mybuttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #C5691D;
+    margin: 20PX 5px 0;
+    border-radius: 3px
+}
+
+    .mybuttons a:hover {
+        background-color: #222;
+        text-decoration: none
+    }
+
+.flogo, .yournext .flogo {
+    background-color: #ececec
+}
+
+.foterlogo {
+    padding-top: 10px
+}
+
+    .foterlogo .col-md-2 {
+        padding: 0
+    }
+
+    .foterlogo img {
+        opacity: .6
+    }
+
+.flogo {
+    padding: 15px;
+    margin: 6px;
+    border: 1px solid #ddd;
+    border-radius: 3px
+}
+
+.yournext {
+    padding: 0
+}
+
+    .yournext .flogo {
+        padding: 48px 10px;
+        color: #fff
+    }
+
+    .yournext h3 {
+        font-size: 17px;
+        letter-spacing: 1px;
+        color: #C5691D;
+        line-height: 3
+    }
+
+    .yournext span {
+        font-size: 33px;
+        line-height: 0;
+        display: inline-block
+    }
+
+.chbox input {
+    margin-right: 3px;
+    top: 2px
+}
+
+.chbox label {
+    margin-right: 10px;
+    color: #222
+}
+
+.playvideo {
+    position: absolute;
+    top: 35%;
+    z-index: 9;
+    left: 44%
+}
+
+    .playvideo img {
+        width: 200px
+    }
+
+    .playvideo:hover {
+        -webkit-animation-name: pulse;
+        animation-name: pulse;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite
+    }
+
+.rgtation {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px 0
+}
+
+#go-top {
+    z-index: 7000;
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 44px;
+    text-decoration: none;
+    background-color: #282e3a;
+    color: #fff;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+.aboutvideo, .aroyal, .btnshowcash, .clientdetail ul, .fild:after, .softwarevideo {
+    display: inline-block
+}
+
+.headerfix, .showcashbanner img {
+    width: 100%
+}
+
+.about p, .faq p, .showcash p {
+    text-align: justify;
+    font-size: 16px
+}
+
+#go-top i {
+    position: relative;
+    top: 10px
+}
+
+#go-top:hover {
+    background-color: #C6681E
+}
+
+.btnshowcash {
+    background-color: #C5691D;
+    color: #fff;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 16px
+}
+
+    .btnshowcash:hover {
+        background-color: #222;
+        color: #fff
+    }
+
+.faq {
+    padding: 20px 0
+}
+
+    .about ul, .faq ul {
+        padding: 0
+    }
+
+    .faq h4 {
+        color: #C5691D;
+        margin: 20px 0 0
+    }
+
+    .faq p {
+        margin: 0
+    }
+
+    .faq ul {
+        margin: 30px 0
+    }
+
+        .faq ul li {
+            margin: 3px 0;
+            font-size: 16px;
+            color: #000
+        }
+
+.headerfix {
+    position: fixed;
+    background-color: rgba(0,0,0,.73);
+    transition: ease 1s;
+    -webkit-transition: ease 1s;
+    -o-transition: ease 1s;
+    -moz-transition: ease 1s
+}
+
+.logo img {
+    transition: ease 1s;
+    -webkit-transition: ease 1s;
+    -o-transition: ease 1s;
+    -moz-transition: ease 1s
+}
+
+.logoimg {
+    width: 120px
+}
+
+.navscrooll {
+    margin-top: 20px;
+    transition: ease 1s;
+    -webkit-transition: ease 1s;
+    -o-transition: ease 1s;
+    -moz-transition: ease 1s
+}
+
+.about ul li {
+    line-height: 1.5;
+    font-size: 16px
+}
+
+.aboutvideo, .aboutvideo iframe, .pinnacle iframe {
+    width: 100%
+}
+
+.pinnacle {
+    margin-bottom: 30px
+}
+
+    .pinnacle h4 {
+        border-bottom: solid 1px #ccc;
+        color: #000;
+        padding-bottom: 10px;
+        margin-bottom: 10px
+    }
+
+.clientdetail {
+    margin-bottom: 20px
+}
+
+    .clientdetail ul {
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+        border-bottom: solid 1px #ccc;
+        border-left: solid 1px #ccc;
+        border-right: solid 1px #ccc
+    }
+
+        .clientdetail ul li {
+            float: left;
+            list-style: none;
+            width: 170px;
+            position: relative;
+            margin-right: 15px
+        }
+
+.fild:after {
+    content: ':';
+    color: #222;
+    position: absolute;
+    right: 0
+}
+
+.welcomeclient {
+    text-align: center;
+    background-color: #c5691d;
+    padding: 10px 0
+}
+
+.doctype a, .selectedmachine span, .supportvideo, .supportvideo h4 {
+    background-color: #ddd
+}
+
+.welcomeclient h3 {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 17px
+}
+
+.supportvideo {
+    padding: 5px;
+    margin: 15px 0
+}
+
+    .supportvideo h4 {
+        padding: 10px;
+        margin-bottom: 0
+    }
+
+    .supportvideo iframe {
+        width: 100%;
+        height: 300px
+    }
+
+.softwarevideo {
+    width: 100%;
+    margin-top: 20px
+}
+
+.cliensupport {
+    margin: 30px 0
+}
+
+.welcomes {
+    padding: 0 !important
+}
+
+    .welcomes img {
+        opacity: 1
+    }
+
+.address p {
+    float: left
+}
+
+.aroyal {
+    float: right
+}
+
+.doctype a, .doctype span, .selectedmachine span {
+    display: block;
+    text-align: center
+}
+
+.aroyal img {
+    width: 260px
+}
+
+.copyright, .pdfblock, .se-pre-con {
+    width: 100%
+}
+
+.cmpare .twentytwenty-after-label:before {
+    content: "Normal Image"
+}
+
+.cmpare .twentytwenty-before-label:before {
+    content: "V360 Image"
+}
+
+.selectedmachine {
+    border: 1px solid #ccc
+}
+
+    .selectedmachine img {
+        width: 100%;
+        padding: 15px 0
+    }
+
+    .selectedmachine span {
+        padding: 10px 0
+    }
+
+.tabed {
+    margin: 10px 0
+}
+
+.doctype {
+    position: relative
+}
+
+    .doctype a {
+        padding: 10px;
+        color: #222;
+        border-radius: 3px;
+        min-height: 95px;
+        margin: 15px 0
+    }
+
+    .doctype span {
+        font-size: 15px;
+        padding: 5px 0
+    }
+
+.copyright, .pdfblock, .social a, .social a i {
+    display: inline-block
+}
+
+.disclamer, .terms {
+    padding: 20px 0
+}
+
+.doctype span i {
+    background-color: red;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 24px
+}
+
+.doctype a:hover {
+    background-color: #C5691D;
+    color: #fff
+}
+
+.se-pre-con {
+    background: url(../images/v360_loader.gif) 50% 50% no-repeat #f9f9f9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 9999;
+    background-size: 150px
+}
+
+.howwork {
+    margin-left: 50px
+}
+
+.social {
+    float: right;
+    margin-right: 20px
+}
+
+    .social a {
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        text-align: center;
+        margin: 0 2px
+    }
+
+.faqbanner img, .giac img, .headercolor, .invitation, .smalldiamond img {
+    width: 100%
+}
+
+.disclamer p, .terms p {
+    text-align: justify
+}
+
+.social a i {
+    color: #fff;
+    line-height: 2
+}
+
+.fontbold h4, .fontbold p {
+    font-weight: 700
+}
+
+.fontbold p {
+    color: #000;
+    margin: 12px 0
+}
+
+.fontbold li {
+    color: #000
+}
+
+.disclamer u {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px
+}
+
+.terms h4 {
+    margin-top: 10px;
+    color: #000
+}
+
+.headercolor {
+    background-color: rgba(0,0,0,.6) !important;
+    position: fixed
+}
+
+.affix {
+    position: fixed !important
+}
+
+#player:after, .btn_close, .dataload, .hdrhome, .landiv, .videotext {
+    position: absolute
+}
+
+.videotext {
+    left: 47%;
+    top: 60%;
+    color: #fff;
+    z-index: 999;
+    font-size: 21px
+}
+
+.invitation {
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    border-top: solid 1px #ccc;
+    color: #d26002;
+    margin-top: 8px;
+    padding: 8px 0
+}
+
+.smalldiamond {
+    float: left;
+    margin: 5px 0;
+    border-radius: 8px
+}
+
+    .smalldiamond span {
+        display: block;
+        text-align: center
+    }
+
+#player:after, .divPartDiamond, .spnHead, .ulResponsive, .ulResponsive li {
+    display: inline-block
+}
+
+.margintop {
+    margin-top: 100px
+}
+
+.modal {
+    z-index: 99999999
+}
+
+#player:after {
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    top: 0
+}
+
+.divJewelTitle {
+    font-size: 23px;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    margin: 0 0 9px
+}
+
+.spnHead {
+    width: 129px;
+    line-height: 32px
+}
+
+.ulResponsive {
+    margin: 0 auto;
+    width: 75%;
+    padding: 0
+}
+
+    .ulResponsive li {
+        width: 22%;
+        height: auto;
+        text-align: center;
+        margin: 5px
+    }
+
+.divPartDiamond {
+    margin: 10px 10px 22px
+}
+
+.dataload {
+    background: url(../images/loader.gif) center no-repeat;
+    background-size: 30px;
+    width: 200px;
+    height: 200px
+}
+
+#Message, #Video {
+    width: 100%
+}
+
+video {
+    width: 100%;
+    transition: ease all .5s
+}
+
+#Message {
+    text-shadow: 2px 2px 2px #000;
+    color: #fff
+}
+
+    #Message h1 {
+        font-size: 3em;
+        color: #fff;
+        text-align: center;
+        padding: .4em
+    }
+
+.hdrhome {
+    z-index: 9999 !important;
+    width: 100%;
+    background: 0 0
+}
+
+.banner .modal-sm {
+    width: 50%
+}
+
+.banner .modal-content, .banner .modal-content img {
+    width: 100%
+}
+
+.modal-backdrop {
+    z-index: 9999
+}
+
+@media (min-width:1650px) {
+    #player iframe {
+        height: 700px
+    }
+}
+
+@media (min-width:1550px) {
+    #player iframe {
+        height: 680px
+    }
+}
+
+@media (min-width:1399px) {
+    #player iframe {
+        height: 600px
+    }
+}
+
+@media (min-width:1023px) {
+    #player iframe {
+        height: 570px
+    }
+}
+
+@media (min-width:768px) {
+    .modal-sm {
+        width: 600px
+    }
+}
+
+@media (min-width:767px) {
+    #player iframe {
+        height: 600px
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .yournext .flogo {
+        padding: 10px
+    }
+
+    .yournext h3 {
+        line-height: 2.7
+    }
+
+    #sticky.stick {
+        top: 85px !important
+    }
+
+    nav {
+        margin-right: 20px
+    }
+}
+
+@media (max-width:1300px) {
+    .vimovideo iframe {
+        width: 95%
+    }
+}
+
+@media (max-width:1200px) {
+    .header .container {
+        width: 100%
+    }
+
+    .logo img {
+        width: 170px
+    }
+
+    .flow img {
+        width: 360px
+    }
+
+    .playvideo {
+        top: 28%
+    }
+
+    .videotext {
+        left: 48%
+    }
+
+    .news a {
+        width: 80px;
+        height: 80px;
+        line-height: 6;
+        font-size: 14px
+    }
+
+    .timeline span {
+        top: 45px
+    }
+
+    .supportvideo iframe {
+        height: 250px
+    }
+
+    .Exp-serach {
+        right: 0;
+        top: 70px
+    }
+}
+
+@media (max-width:1024px) {
+    .menu a {
+        padding-left: 15px;
+        font-size: 11px
+    }
+}
+
+@media (max-width:991px) {
+    .desired {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+
+    .slogen h1 {
+        font-size: 30px;
+        line-height: initial;
+        margin-bottom: 10px
+    }
+
+    .clientdetail, .timeline {
+        margin-bottom: 20px
+    }
+
+    .slogen p {
+        font-size: 17px
+    }
+
+    .tltext h3 {
+        margin-top: 0
+    }
+
+    .technology {
+        background-size: cover !important
+    }
+
+    .flow img {
+        width: 100%
+    }
+
+    .diamondstyle span {
+        font-size: 10px
+    }
+
+    .playvideo {
+        top: 18%
+    }
+
+    .videotext {
+        left: 49%
+    }
+}
+
+@media (max-width:768px) {
+    .media-object {
+        margin-top: 0
+    }
+
+    .mymenu {
+        background-color: rgba(0,0,0,.45)
+    }
+
+    .viwermore a {
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 3px
+    }
+
+    .footer ul li:first-child {
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 10px;
+        background-color: #171717;
+        padding: 5px
+    }
+
+    .diamondstyle {
+        margin: 20px 0 5px
+    }
+
+    .news {
+        margin-right: 10px;
+        padding: 20px 0
+    }
+
+    .slick-next, .slick-prev {
+        width: 30px;
+        height: 30px
+    }
+
+    .tlmain {
+        padding: 20px 15px !important
+    }
+
+    .formet .tlstone {
+        padding: 0 !important
+    }
+
+    .tl3 img {
+        width: 150px !important
+    }
+
+    .tltitle {
+        background-color: rgba(0,0,0,.78);
+        padding: 15px 0 !important;
+        font-size: 19px !important
+    }
+
+    .ask img {
+        width: 25px !important
+    }
+
+    .intro {
+        padding: 20px 10px
+    }
+
+    .functionality {
+        padding: 0 10px
+    }
+
+    .desired {
+        width: 100% !important
+    }
+
+    .go {
+        padding: 7px 20px !important
+    }
+
+    .b2bmain {
+        padding: 0 10px
+    }
+
+    .row {
+        margin: 0
+    }
+
+    .videotext {
+        left: 43%
+    }
+
+    .newsevent {
+        padding-top: 0
+    }
+
+    .news a {
+        margin: 0 15px
+    }
+
+    .playvideo {
+        left: 40%
+    }
+
+        .playvideo img {
+            width: 140px
+        }
+
+    .technology {
+        min-height: 290px !important
+    }
+
+    .tltext {
+        width: 100%;
+        display: inline-block;
+        margin-top: 10px
+    }
+
+    .benitext br, .functionality br {
+        display: none
+    }
+
+    .benitext .text-right, .functionality .text-right {
+        text-align: left
+    }
+
+    .benitext h2, .functionality h2 {
+        font-size: 22px
+    }
+
+    .mobileview {
+        width: 100%;
+        margin-top: 30px
+    }
+
+    .yournext .flogo {
+        padding: 10px;
+        background-color: #ececec;
+        color: #fff
+    }
+
+    .timeline-item img {
+        width: 100px
+    }
+
+    .logo img {
+        width: 120px
+    }
+
+    .clientlogin, .ulResponsive {
+        width: 100%
+    }
+
+    .pinnacle iframe {
+        height: 200px !important
+    }
+
+    .vimovideo img {
+        margin-top: 10px
+    }
+
+    .vimovideo {
+        margin-top: 20px
+    }
+
+        .flow h2, .vimovideo h2 {
+            font-size: 20px
+        }
+
+    .timeline {
+        margin-top: 0
+    }
+
+    .yournext h3 {
+        line-height: 2
+    }
+
+    h1 {
+        font-size: 26px !important
+    }
+
+    h2 {
+        font-size: 22px !important
+    }
+
+    h3 {
+        font-size: 20px !important
+    }
+
+    h4 {
+        font-size: 18px !important
+    }
+
+    h5 {
+        font-size: 16px !important
+    }
+
+    .howwork, .quicktour {
+        margin: 20px 10px
+    }
+
+    .Exp-serach {
+        right: 50px;
+        top: -45px
+    }
+
+    .ulResponsive li {
+        width: 22%;
+        margin: 0 2px
+    }
+
+    .frameStone {
+        height: 500px !important
+    }
+
+    .xspadding {
+        padding: 0
+    }
+}
+
+@media (max-width:567px) {
+    .frameStone {
+        height: 580px !important
+    }
+
+    .csVideo {
+        display: none
+    }
+
+    .NoPaddMob {
+        padding: 0 !important
+    }
+}
+
+@media (max-width:585px) {
+    .banner .modal-content, .banner .modal-content img, .banner .modal-sm {
+        width: 100%
+    }
+
+    .playvideo {
+        top: 4%;
+        left: 36%
+    }
+
+    .videotext {
+        left: 40%
+    }
+
+    .timeline .timeline-items .timeline-item {
+        width: 100% !important
+    }
+
+        .timeline .timeline-items .timeline-item.inverted {
+            left: 0 !important
+        }
+
+    .menu2 a {
+        color: #222;
+        font-size: 12px;
+        display: inline-block;
+        padding: 8px !important
+    }
+
+    #sticky.stick {
+        top: 60px !important
+    }
+
+    .ulResponsive {
+        width: 100%
+    }
+
+        .ulResponsive li {
+            width: 42%;
+            margin: 0 2px
+        }
+
+    #player iframe {
+        height: 400px
+    }
+}
+
+@media (max-width:480px) {
+    .before, .modelmoviesm, .tlmain .col-sm-5, .tlmain .col-sm-7 {
+        padding: 0 !important
+    }
+
+    .news a {
+        width: 55px;
+        height: 55px;
+        line-height: 4;
+        margin: 0 10px
+    }
+
+    .timeline span {
+        width: 250px;
+        top: 30px
+    }
+
+    .videotext {
+        font-size: 15px
+    }
+
+    .playvideo img {
+        width: 100px
+    }
+
+    .clientdetail ul li {
+        width: 130px;
+        font-size: 13px
+    }
+
+    .supportvideo iframe {
+        height: 200px
+    }
+
+    .menu2 a {
+        font-size: 11px !important
+    }
+
+    .modelmoviesm {
+        margin: 0
+    }
+
+    .frameStone {
+        height: 480px !important
+    }
+}
+
+@media (max-width:420px) {
+    .frameStone {
+        height: 410px !important
+    }
+
+    .loginBtn {
+        display: none
+    }
+}
+
+@media (max-width:350px) {
+    .news a {
+        width: 40px;
+        height: 40px;
+        font-size: 11px
+    }
+
+    .timeline span {
+        width: 200px;
+        top: 22px
+    }
+
+    .playvideo img {
+        width: 90px
+    }
+
+    .clientdetail ul li {
+        width: 90px;
+        font-size: 11px
+    }
+
+    .menu2 a {
+        font-size: 10px !important
+    }
+
+    .frameStone {
+        height: 350px !important
+    }
+}
+
+.modelData {
+    border: 7px solid transparent;
+    padding: 10px;
+    border-radius: 4px
+}
+
+.btn_close {
+    float: left;
+    top: -13px;
+    right: -11px
+}
+
+.hrefFAQ {
+    color: #c5691d
+}
+
+.allinoneset {
+    background: #fff;
+    padding: 23px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px
+}
+
+.ddllanguage {
+    background: #c5691d;
+    color: #fff;
+    border: none;
+    padding: 5px
+}
+
+.landiv {
+    top: 0;
+    /*right: 85px*/
+}
+
+.imgreg {
+    height: 5%;
+    margin-left: -68%;
+    bottom: 11%;
+    width: auto !important;
+    text-align: center;
+    position: absolute;
+}
+
+.imgmap {
+    height: 5%;
+    margin-left: -69%;
+    bottom: 4%;
+    width: auto !important ;
+    text-align: center;
+    position: absolute;
+}
+
+.modelpopup {
+    width: 700px
+}
+.modalmap {
+    margin-left: -200px;
+    margin-top: 60px
+}
+.iframeMap {
+    width:940px;
+    height:540px;
+}
+@media (max-width: 700px) {
+    .modelpopup {
+        width: 80% !important;
+        margin-left: 11%;
+    }
+
+    .modalmap {
+        margin: 0;
+        width: 100% !important;
+        margin-top: 32px;
+        background: #0009;
+    }
+
+
+    .iframeMap {
+        width:100%;
+        height:340px;
+    }
+}
