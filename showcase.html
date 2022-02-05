@@ -1,0 +1,777 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="../external.html?link=http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from v360.in/showcase.aspx by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 05 Feb 2022 21:19:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	Vision360&deg; Showcase
+</title>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/rang-slider/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link href="assets/css/style.css"
+        rel="stylesheet" type="text/css" />
+    <link href="assets/css/Datatable/jquery.dataTables.min.css"
+        rel="stylesheet" type="text/css" />
+    <script src="../code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/rang-slider/prefixfree.min.js"></script>
+    <script src="assets/css/Datatable/jquery.dataTables.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/rang-slider/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/rang-slider/index.js"></script>
+    <script src="Viewer4.0/js/sm.js"
+        type="text/javascript"></script>
+    <script src="js/script.js"
+        type="text/javascript"></script>
+    <script>
+        function Top() {
+            $("html, body").animate({
+                scrollTop: 450
+            }, "slow");
+        }
+        var DataType = "Colorless";
+        var ReportType = "";
+            var pageIndex = 0;
+            var process = 0;
+            var limit = 0;
+            var clarity = ["FL", "IF", "VVS1", "VVS2", "VS1", "VS2", "SI1", "SI2", "I1", "I2", "I3"];
+            var cut = ["POOR", "FAIR", "GOOD", "VERY GOOD", "EXCELLENT"];
+            $(document).ready(function () {
+                if(window.location.href.indexOf("#") >= 0)
+                {
+                     var arr = window.location.href.split('#');
+                    
+                     $(".tab-pane").removeClass("active");
+                    if(arr[1].toLowerCase()=="colorless diamond")
+                        DataType="ColorLess";
+                    else   if(arr[1].toLowerCase()=="color diamond")
+                    {
+                        DataType="FancyColor";
+                        $("#profile").addClass("active");
+                    }
+                    else   if(arr[1].toLowerCase()=="jewelry")
+                        DataType="Jewel";
+                    else   if(arr[1].toLowerCase()=="gemstone")
+                    {
+                        DataType="Gems";
+                        $("#profile").addClass("active");
+                    }
+                     $("#txtCType").val(DataType);
+                     $(".nav  .active").removeClass("active");
+                     $("."+DataType).addClass("active");
+                     if(DataType.toLowerCase()=="jewel" || DataType.toLowerCase()=="gems")
+                     {
+                        $(".searchArea").hide();
+                        $(".diamondblock").hide();
+                        $(".navDiv").hide();
+                        $(".title").hide();
+                        }
+                    else
+                        $(".searchArea").show();
+                }
+                DataType = $("#txtCType").val();
+                ReportType = arr[1].toLowerCase();
+                $(".diamondshape").click(function () {
+                    $(this).toggleClass("csSelShape");
+                    var count = 0;
+                    var stringVal = "";
+                    var sringID = "";
+                    $(".diamondMain").each(function (i, el) {
+                    if ($(this).find(".diamondshape").is(".csSelShape")) {
+                        stringVal += "@|%" + $(this).find(".diamondshape").attr("id") + "%|";
+                        sringID += ",#" + $(this).find(".diamondshape").attr("id") + " ";
+                    }
+                });
+                $("#txtSelDiamond").val(stringVal);
+                $("#txtselId").val(sringID);
+                LoadData();
+            });
+
+            $(".color li").click(function () {
+                $(this).toggleClass("csSelColor");
+                var count = 0;
+                var stringVal = "";
+                var sringID = "";
+                $(".color li").each(function (i, el) {
+                    if ($(this).is(".csSelColor")) {
+                        stringVal += ",|" + $(this).find("a").attr("id") + "|";
+                        sringID += ",#" + $(this).find("a").attr("id") + " ";
+                    }
+                });
+                $("#txtSelColor").val(stringVal);
+                $("#txtSelColorID").val(sringID);
+                LoadData();
+            });
+            $(".navDiv li").click(function(){
+                DataType=$(this).attr("data-type");
+                if(DataType.toLowerCase()=="Jewel" )
+                    $(".searchArea").hide();
+                else
+                    $(".searchArea").show();
+                if(DataType.toLowerCase()=="colorless")
+                     window.location.href="showcase.html#Colorless Diamond";
+                else  if(DataType.toLowerCase()=="fancycolor")
+                    window.location.href="showcase.html#Color Diamond";
+                else  if(DataType.toLowerCase()=="jewel")
+                    window.location.href="showcase.html#Jewelry";
+                else  if(DataType.toLowerCase()=="gems")
+                    window.location.href="showcase.html#Gemstone";
+                     if(DataType.toLowerCase()=="jewel" )
+                        $(".searchArea").hide();
+                    else
+                        $(".searchArea").show();
+                LoadData();
+            });
+
+            $(".FancyColor li").click(function () {
+                $(this).toggleClass("csSelFColor");
+                var count = 0;
+                var stringVal = "";
+                var sringID = "";
+                $(".FancyColor li").each(function (i, el) {
+                    if ($(this).is(".csSelFColor")) {
+                        stringVal += "$|%" + $(this).find("a").attr("id") + "%|";
+                        sringID += ",#" + $(this).find("a").attr("id") + " ";
+                    }
+                });
+                $("#txtFancyColor").val(stringVal);
+                $("#txtFancyColorID").val(sringID);
+                            LoadData();
+            });
+
+            $('.sliderCarat').slider({ min: 0.01, step: 0.01, max: 30, animate: true, range: true, values: [0.05, 30]
+            }).slider('float').on("slidechange", function (e, ui) {
+                $("#txtCaratFrom").val((Math.round(ui.values[0] * 100) / 100));
+                $("#txtCaratTo").val((Math.round(ui.values[1] * 100) / 100));
+                            LoadData();
+            });
+         
+            $('.sliderClarity').slider({ min: 0, max: 11, animate: true, range: true, values: [0, 11] })
+            .slider('pips', { first: 'pip', last: 'pip' })
+            .on("slidechange", function (e, ui) {
+                $("#txtClarityFrom").val(ui.values[0]);
+                $("#txtClarityTo").val(ui.values[1]);
+                LoadData();
+            });
+           
+            $('.slidercut').slider({ min: 0, max: 5, animate: true, range: true, values: [0, 5] })
+            .slider('pips', { first: 'pip', last: 'pip' })
+            .on("slidechange", function (e, ui) {
+                $("#txtCutFrom").val(ui.values[0]);
+                $("#txtCutTo").val(ui.values[1] - 1);
+                            LoadData();
+
+            });
+
+              $("#acolumnrow").click(function () {
+                    $(".SelType").removeClass("SelType");
+                    $(this).addClass("SelType");
+                    limit = 0;
+                    $(".divSpinner").show();
+                    $("#txtSelType").val("Column");
+                    pageIndex = 0;
+                    $("#myTable").html("");
+                    getData();
+             });
+           $("#arowcolumn").click(function () {
+               $(".SelType").removeClass("SelType");
+               $(this).addClass("SelType");
+               limit = 0;
+               $(".divSpinner").show();
+               $("#txtSelType").val("Row");
+                    pageIndex = 0;
+                    $("#myTable").html("");
+                    getData();
+               });
+
+                /* List Data 4 Convert Call*/
+               $(".ListData4").click(function () {
+                       $(".SelType").removeClass("SelType");
+                       $(this).addClass("SelType");
+                       limit = 0;
+                       $(".divSpinner").show();
+                       $("#txtSelType").val("Grid4");
+                            pageIndex = 0;
+                            $("#myTable").html("");
+                            getData();
+               });
+              /* List Data 2 Convert Call*/
+               $(".ListData2").click(function () {
+                   $(".SelType").removeClass("SelType");
+                   $(this).addClass("SelType");
+                   limit = 0;
+                   $(".divSpinner").show();
+                   $("#txtSelType").val("Grid2");
+                     pageIndex = 0;
+                     $("#myTable").html("");
+                     getData();
+                });
+
+            var lastScrollTop = 0;
+            $(".divDatatable").scroll(function (e) {
+               lastScrollTop = $(this).scrollTop();
+               lastScrollLeft = $(this).scrollLeft();
+               var height = $("#myTable").height();
+               var width = $("#myTable").width();
+               if (parseInt(limit) == 0) {
+                   if ($("#txtSelType").val() == "Row") {
+                              if (parseFloat(lastScrollLeft) > (parseFloat(width) - 1200)) 
+                                  getData();
+                          }
+                          else {
+                              if (lastScrollTop > (height - 400)) 
+                                  getData();
+                          }
+                      }
+             });
+             var lastScrollTopGrid = 0;
+                $(window).scroll(function (e) {
+                   if (parseInt(limit) == 0) {
+                       lastScrollTopGrid = $(this).scrollTop();;
+                       var heightGrid = document.body.scrollHeight;
+                       if (lastScrollTopGrid > (heightGrid - 1100)) {
+                           if ($("#txtSelType").val() == "Grid4" || $("#txtSelType").val() == "Grid2") {
+                                        var sdata = $("#myTable").html();
+                                        if (sdata.length > 0)
+                                            getData();
+                               }
+                          }
+                      }
+                });
+            $(".ListData4").click();
+        });
+
+
+         function LoadData()
+            {
+                $(".Spinnerloader").show();
+                $("body").addClass("pointernone");
+                var strWhere = "";
+                var count = 0;
+                if ($("#txtSelDiamond").val() != "")
+                    strWhere += " and ( Shape like " + $("#txtSelDiamond").val().substring(1).toLowerCase() + " )";
+                if ($("#txtFancyColor").val() != "")
+                    strWhere += " and ( Color like " + $("#txtFancyColor").val().substring(1).toLowerCase() + " )";
+                /****Start get Cut Wise Data****/
+                var ToVal = parseInt($("#txtCutTo").val());
+                var fromVal = parseInt($("#txtCutFrom").val());
+                var strQ="";    
+                if(ToVal==4 && fromVal==0){}else{
+                    for (i = fromVal; i <= ToVal; i++) {
+                        if (count != 0)
+                            strQ += ",";
+                        strQ += "|" + cut[ i]+ "|";
+                        count++;
+                    }
+                }
+                if(strQ!="" && DataType.toLowerCase()=="colorless")
+                    strWhere += " and Cut in(" + strQ + ")";
+                /****End get Cut Wise Data****/
+                count=0;
+                strQ="";
+                /****Start get Clarity Wise Data****/
+                var ToVal = parseInt($("#txtClarityTo").val());
+                var fromVal = parseInt($("#txtClarityFrom").val());
+                if(ToVal==11 && fromVal==0){}else{
+                    for (i = fromVal; i < ToVal; i++) {
+                        if (count != 0)
+                            strQ += ",";
+                        strQ += "|" + clarity[i] + "|";
+                        count++;
+                    }
+                    if(strQ!=""){
+                        strWhere += " and Clarity in(" + strQ + ")";
+                    }
+                }
+                /****End get Clarity Wise Data****/
+
+                /****Start get Color Wise Data if Fancy Color Not Selected****/
+                if ($("#txtFancyColor").val() == "" && $("#txtSelColor").val() != "")
+                    strWhere += " and Color in(" + $("#txtSelColor").val().substring(1).toLowerCase()  + ")";
+             
+                /****** Start get Caret Data************/
+                if(  DataType.toLowerCase()!="jewel" ){
+                    if ($("#txtCaratTo").val() != "" && $("#txtCaratFrom").val() != "") {
+                        strQ = " (convert(float,ltrim(rtrim(carat1)))<=" + $("#txtCaratTo").val() + " and  convert(float,ltrim(rtrim(carat1)))>=" + $("#txtCaratFrom").val() + ")";
+                        strWhere += " and (" + strQ + ")";
+                    }
+                    else {
+                        if ($("#txtCaratFrom").val() != "")
+                            strWhere += " and  convert(float,ltrim(rtrim(carat1)))>=" + $("#txtCaratFrom").val();
+                        if ($("#txtCaratTo").val() != "")
+                            strWhere += " and  convert(float,ltrim(rtrim(carat1)))<=" + $("#txtCaratTo").val();
+                    }
+                }
+                if(DataType.toLowerCase()=="colorless")
+                    strWhere+=" and LEN(Color)=1 ";
+                else  if(DataType.toLowerCase()=="fancycolor")
+                    strWhere+=" and LEN(Color)>1 ";
+                $("#txtHdnQuery").val(strWhere);
+                $(".divSpinner").show();
+                $("#myTable").html("");
+                pageIndex = 0;
+                getData();
+          }
+    function getData() {
+        if (process == 0) {
+            $(".iconClick").css({ "pointer-events": "none" });
+            pageIndex++;
+            process = 1;
+            $.ajax({
+                type: "POST",
+                url: "https://v360.in/showcase.aspx/getAllData",
+                data: "{'pageIndex' : '" + pageIndex + "','ccode' : '" + $("#txtCompanyCode").val() + "','query' : '" + $("#txtHdnQuery").val() + "','type':'" + $("#txtSelType").val() + "','DataType' : '" + DataType + "','ReportType' : '" + ReportType+ "'}",
+                 contentType: "application/json; charset=utf-8",
+                 success: function (dataDetail) {
+                     var strHtml = dataDetail.d;
+                     if (strHtml == "")
+                         limit = 1;
+                    else
+                         limit = 0;
+
+                     if ($("#txtSelType").val() == "Row") {
+                            if (parseInt(pageIndex) == 1) {
+                                $("#myTable").html("");
+                                $("#myTable").append(strHtml);
+                                $(".divDatatable").addClass("datatableUl");
+                                Top();
+                            }
+                            else
+                                $("#myTable .tbodycls").append(strHtml);
+                        }
+                        else if ($("#txtSelType").val() == "Column") {
+                            if (parseInt(pageIndex) == 1) {
+                                $("#myTable").html("");
+                                $("#myTable").append(strHtml);
+                                $(".divDatatable").removeClass("datatableUl");
+                                Top();
+                            }
+                            else
+                                $("#myTable tbody").append(strHtml);
+                        }
+                        else if ($("#txtSelType").val() == "Grid4") {
+                            if (parseInt(pageIndex) == 1) {
+                                $("#myTable").html("");
+                                $("#myTable").append(strHtml);
+                                $(".divDatatable").removeClass("datatableUl");
+                                Top();
+                            }
+                            else
+                                $("#myTable .tbodyclsGrid").append(strHtml);
+                        }
+                        else if ($("#txtSelType").val() == "Grid2") {
+                          if (parseInt(pageIndex) == 1) {
+                              $("#myTable").html("");
+                              $("#myTable").append(strHtml);
+                              $(".divDatatable").removeClass("datatableUl");
+                              Top();
+                          }
+                          else
+                              $("#myTable .tbodyclsGrid2").append(strHtml);
+                      }
+                      else {
+                          $(".divDatatable").removeClass("datatableUl");
+                          $("#myTable").append(strHtml);
+                      }
+
+                        $(".divSpinner").hide();
+                        $(".Spinnerloader").hide();
+                        $("body").removeClass("pointernone");
+
+                        process = 0;
+                        setTimeout(function () { $(".iconClick").css({ "pointer-events": "auto" }); }, 1000);
+                        $(".divLoadMoreImg").hover(function () {
+                            $(".divDataDiamondHide").hide();
+                            $(this).parent().find(".divDataDiamondHide").show();
+                        });
+                        bindSMViewer(200);
+                      
+                        $(".imgViewerCmp").click(function () {
+                            var imgsrc = $(this).attr("src");
+                            $("#divMainImg").html("<img src='" + imgsrc + "' class='clsPopupImg' style='  width: 100%;  padding: 13px;' />");
+                            $('#myModelImage').reveal();
+                        });
+                        function hidediv(str) {
+                            $("#" + str).find("canvas").css({ "z-index": "999", "position": "absolute", "top": "0", "left": "0" });
+                            $("#" + str).find("img").css({ "z-index": "1" });
+                        }
+                        $(".movieViewer").click(function (e) {
+                            var mvID = $(this).attr("dataid");
+                            var surl = $(this).attr("data-surl");
+                            var VRPath=$(this).attr("data-vrpath");
+                            var datadid = $(this).attr("datadid");
+                            $(this).css({ "z-index": "0" });
+                            var src = $("#mv" + mvID + " .movieViewer").attr('src');
+                            if (src != undefined)
+                                $("#mv" + mvID).css({ "background": "url('" + src + "') center no-repeat", "background-size": "427px" });
+                            $("#mv" + mvID).html("<iframe src='" + VRPath + "vision360.html?d=" + datadid + "&v=1&btn=0&surl="+surl+"&h=450' style='width: 550px;  margin-top: -430px;  margin-left: -13px;  height: 510px;border: 0; margin: 0;  z-index: 999;' seamless='seamless' scrolling='no'></iframe>");
+                            e.stopPropagation();
+                        });
+                        $('.divLoadMoreImg').mouseout(function () {
+                            $('.divDataDiamondHide').fadeOut("fast");
+                        });
+                        $(".dataTable tbody").scroll(function (e) {
+                            var lastScrollTopIN = $(this).scrollTop();
+                            var rowCount = $('#myTable tbody tr').length;
+                            var height = parseFloat(rowCount) * 30;
+                            if (parseInt(limit) == 0) {
+                                if ($("#txtSelType").val() == "Column") {
+                                            if (lastScrollTopIN > (height - 450))
+                                                getData();
+                                        }
+                                    }
+                                   return false;
+                               });
+                    },
+                 error: function (errormessage) {
+                 }
+             });
+        }
+      }
+    </script>
+    <style>
+        .header
+        {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="../external.html?link=https://v360.in/showcase.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="YBvaRCDRYGAUwxs4LES6let3STUVZhAh8bG1jkneaBcOlQmJjoMisqIN+gfczi1auTrPcJXcbwEwxYdp66byM5X0NowyWlGWxgjinkIs3iLKIlW0hvO3dClVtXjP7G4C" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BF9D4727" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="7AXIiaox9II5BbzP3VtHg+hoXdGWGphJRovt7JcK2l5DUwX3WOuf6COoru4uY1lh5AMHN7BO4Mr6SwOvRARz1D48thqDAuEAmV7o8MihjQJEFbdiciHu0bHDJlvGparOBMWz+cxrQ6w3YMGLKx+I0kpiVRsZo2YVa8E9T0FpXTuCUVruyUXu18nsvtCyy/j/PnL7d0PriYpNE65AwSY8709F9vWnXOjZNO22XxTU3BigvkZg+wRDhibTlVmwSg2A+dam2h4FEXwaAoP+Ld5h3OPv6IDs0Te5ifmwFanKw0zsTWV3xyqOoMfuyScgmwexFyzdKRHpyrjwwewy79vcwxHhbwYmWqxglwXGiP07WoQ7K4s56MSaP5TLFI1YzAaToSEoUrjgJSEqP4aYtr1OuO6SgajHtLWOtqZpWse/P1S0iAITBD0WmfgLbaU8ICQNp3CuHLGfIdXzlbDBf9ettA==" />
+</div>
+    <div style="display: none;">
+        <input name="txtSelType" type="text" id="txtSelType" />
+        <input name="txtReportType" type="text" id="txtReportType" />
+        <input name="txtCType" type="text" value="Colorless" id="txtCType" />
+        <input name="txtCompanyCode" type="text" id="txtCompanyCode" />
+        <input name="txtHdnQuery" type="text" id="txtHdnQuery" />
+        <input name="txtselId" type="text" id="txtselId" />
+        <input name="txtSelDiamond" type="text" id="txtSelDiamond" />
+        <input name="txtSelColorID" type="text" id="txtSelColorID" />
+        <input name="txtSelColor" type="text" id="txtSelColor" />
+        <input name="txtCaratFrom" type="text" id="txtCaratFrom" />
+        <input name="txtCaratTo" type="text" id="txtCaratTo" />
+        <input name="txtClarityFrom" type="text" id="txtClarityFrom" />
+        <input name="txtClarityTo" type="text" id="txtClarityTo" />
+        <input name="txtCutFrom" type="text" id="txtCutFrom" />
+        <input name="txtCutTo" type="text" id="txtCutTo" />
+        <input name="txtFancyColor" type="text" id="txtFancyColor" />
+        <input name="txtFancyColorID" type="text" id="txtFancyColorID" />
+    </div>
+    <div class="header">
+        <div id="clientlogo" class="container">
+            <a href="Default.html">
+                <img src="images/v360-whitelogo.png" /></a>
+        </div>
+    </div>
+    <div class="title">
+        <span>Diamond Filter</span>
+    </div>
+    <div class="diamondblock">
+        <div class="container">
+            <div class="col-md-1  diamondMain">
+                <div class="diamondshape" id="round">
+                    <img src="assets/images/diamond-icon/Round.png" />
+                    <span>Round</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="princess">
+                    <img src="assets/images/diamond-icon/Princess.png" />
+                    <span>Princess</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="emerald">
+                    <img src="assets/images/diamond-icon/Emerald.png" />
+                    <span>Emerald</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="cushion">
+                    <img src="assets/images/diamond-icon/Cushion.png" />
+                    <span>Cushion</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="brilliant">
+                    <img src="assets/images/diamond-icon/CushionBrilliant.png" />
+                    <span>Cushion Brilliant</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="fancy">
+                    <img src="assets/images/diamond-icon/Fancy.png" />
+                    <span>Fancy</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="heart">
+                    <img src="assets/images/diamond-icon/Heart.png" />
+                    <span>Heart</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="radiant">
+                    <img src="assets/images/diamond-icon/LGRadiant.png" />
+                    <span>LGRadiant</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="marquise">
+                    <img src="assets/images/diamond-icon/Marquise.png" />
+                    <span>Marquise</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="oval">
+                    <img src="assets/images/diamond-icon/Oval.png" />
+                    <span>Oval</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="pear">
+                    <img src="assets/images/diamond-icon/Pear.png" />
+                    <span>Pear</span>
+                </div>
+            </div>
+            <div class="col-md-1 diamondMain">
+                <div class="diamondshape" id="sqradiant">
+                    <img src="assets/images/diamond-icon/SQRadiant.png" />
+                    <span>SQRadiant</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <ul class="nav nav-tabs navDiv" role="tablist">
+                <li role="presentation" class="active colorless" data-type='Colorless'><a href="#home"
+                    aria-controls="home" role="tab" data-toggle="tab">Colorless Diamond</a></li>
+                <li role="presentation" class='fancycolor' data-type='FancyColor'><a href="#profile"
+                    aria-controls="profile" role="tab" data-toggle="tab">Color Diamond</a></li>
+                <li role="presentation" class='Gems' data-type='Gems' style="display: none;"><a href="#profile"
+                    aria-controls="profile" role="profile" data-toggle="tab">Gemstone</a></li>
+                <li role="presentation" class='Jewel' data-type='Jewel' style="display: none;"><a
+                    href="#jewel" aria-controls="jewel" role="jewel" data-toggle="tab">Jewelry</a></li>
+            </ul>
+            <div class="searchArea">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+                        <div class="alldetail">
+                            <div class="sccolor">
+                                <div class="col-md-1">
+                                    <span>Color : </span>
+                                </div>
+                                <div class="col-md-11">
+                                    <ul class='color'>
+                                        <li><a id="d">d </a></li>
+                                        <li><a id="e">e </a></li>
+                                        <li><a id="f">f </a></li>
+                                        <li><a id="g">g </a></li>
+                                        <li><a id="h">h </a></li>
+                                        <li><a id="i">i </a></li>
+                                        <li><a id="j">j </a></li>
+                                        <li><a id="k">k </a></li>
+                                        <li><a id="l">l </a></li>
+                                        <li><a id="m">m </a></li>
+                                        <li><a id="n">n </a></li>
+                                        <li><a id="o">o </a></li>
+                                        <li><a id="p">p </a></li>
+                                        <li><a id="q">q </a></li>
+                                        <li><a id="r">r </a></li>
+                                        <li><a id="s">s </a></li>
+                                        <li><a id="t">t </a></li>
+                                        <li><a id="u">u </a></li>
+                                        <li><a id="v">v </a></li>
+                                        <li><a id="w">w </a></li>
+                                        <li><a id="x">x </a></li>
+                                        <li><a id="y">y </a></li>
+                                        <li><a id="z">z </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">
+                        <div class="alldetail">
+                            <div class="stonecolor">
+                                <div class="col-md-1">
+                                    <span>Color : </span>
+                                </div>
+                                <div class="col-md-11">
+                                    <ul class='FancyColor'>
+                                        <li><a id="yellow">
+                                            <img src="assets/images/diamond-stone/Yellow.png" />
+                                            <span>Yellow</span> </a></li>
+                                        <li><a id="pink">
+                                            <img src="assets/images/diamond-stone/Pink.png" />
+                                            <span>Pink</span> </a></li>
+                                        <li><a id="blue">
+                                            <img src="assets/images/diamond-stone/Blue.png" />
+                                            <span>Blue</span> </a></li>
+                                        <li><a id="green">
+                                            <img src="assets/images/diamond-stone/Green.png" />
+                                            <span>Green</span> </a></li>
+                                        <li><a id="orange">
+                                            <img src="assets/images/diamond-stone/Orange.png" />
+                                            <span>Orange</span> </a></li>
+                                        <li><a id="brown">
+                                            <img src="assets/images/diamond-stone/Brown.png" />
+                                            <span>Brown</span> </a></li>
+                                        <li><a id="red">
+                                            <img src="assets/images/diamond-stone/Red.png" />
+                                            <span>Red</span> </a></li>
+                                        <li><a id="purple">
+                                            <img src="assets/images/diamond-stone/Purple.png" />
+                                            <span>Purple</span> </a></li>
+                                        <li><a id="black">
+                                            <img src="assets/images/diamond-stone/Black.png" />
+                                            <span>Black</span> </a></li>
+                                        <li><a id="gray">
+                                            <img src="assets/images/diamond-stone/Gray.png" />
+                                            <span>Gray</span> </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carat caratdiv">
+                    <div class="col-md-1">
+                        <span>Carat : </span>
+                    </div>
+                    <div class="col-md-11">
+                        <div class="sliderCarat">
+                        </div>
+                    </div>
+                </div>
+                <div class="carat">
+                    <div class="col-md-1">
+                        <span>Clarity : </span>
+                    </div>
+                    <div class="col-md-11">
+                        <div class="sliderClarity">
+                            <ul class="rangpoint">
+                                <li>FL</li>
+                                <li>IF</li>
+                                <li>VVS1</li>
+                                <li>VVS2</li>
+                                <li>VS1</li>
+                                <li>VS2</li>
+                                <li>SI1</li>
+                                <li>SI2</li>
+                                <li>I1</li>
+                                <li>I2</li>
+                                <li>I3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="carat cutdiv">
+                    <div class="col-md-1">
+                        <span>Cut :</span>
+                    </div>
+                    <div class="col-md-11">
+                        <div class="slidercut">
+                            <ul class="rangpoint">
+                                <li>POOR</li>
+                                <li>FAIR</li>
+                                <li>GOOD</li>
+                                <li>VERY GOOD</li>
+                                <li>EXCELLENT</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divData">
+        <span id="lblmsg"></span>
+        <div class="container">
+            <div>
+                <div class='iconClick'>
+                    <a id="arowcolumn" class="SelType aLink"><span class="hint--left clsIcon" data-hint="Row View">
+                        <img src="images/row.png" />
+                    </span></a><a id="acolumnrow" class="aLink"><span class="hint--left clsIcon" data-hint="Column View">
+                        <img src="images/column.png" />
+                    </span></a><a class="ListData4 aLink"><span class="hint--left clsIcon" data-hint="Diamond Grid View">
+                        <img src="images/grid4.png" />
+                    </span></a><a class="ListData2 aLink"><span class="hint--left clsIcon" data-hint="Diamond Grid 2 View">
+                        <img src="images/grid2.png" />
+                    </span></a>
+                </div>
+            </div>
+            <div id="divmyTable " class="divDatatable table-responsive">
+                <table id="myTable" class="dataTable">
+                </table>
+            </div>
+            <div class="divSpinner">
+            </div>
+        </div>
+    </div>
+    <div class="Spinnerloader">
+        <div class="topspinner">
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child">
+                </div>
+                <div class="sk-circle2 sk-child">
+                </div>
+                <div class="sk-circle3 sk-child">
+                </div>
+                <div class="sk-circle4 sk-child">
+                </div>
+                <div class="sk-circle5 sk-child">
+                </div>
+                <div class="sk-circle6 sk-child">
+                </div>
+                <div class="sk-circle7 sk-child">
+                </div>
+                <div class="sk-circle8 sk-child">
+                </div>
+                <div class="sk-circle9 sk-child">
+                </div>
+                <div class="sk-circle10 sk-child">
+                </div>
+                <div class="sk-circle11 sk-child">
+                </div>
+                <div class="sk-circle12 sk-child">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-47470754-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    </form>
+</body>
+
+<!-- Mirrored from v360.in/showcase.aspx by HTTrack Website Copier/3.x [XR&CO'2017], Sat, 05 Feb 2022 21:19:39 GMT -->
+</html>
